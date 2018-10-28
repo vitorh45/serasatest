@@ -71,7 +71,7 @@ for city in cities_list:
 
 
 # Saving the csv file
-with open('climate.csv', "w") as csvfile:
+with open('data.csv', "w") as csvfile:
     fieldnames = ['Cidade', 'Estado', 'Mês', 'Temp min(°C)', 'Temp max(°C)', 'Precipitação (mm)']
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
